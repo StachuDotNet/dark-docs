@@ -8,7 +8,7 @@ title: Making a Pull Request
   a new version) and deprecate the old one. It is however safe to fix the type
   signature on an existing function, or to change its docstring.
 - Don't change existing serialized types, as that breaks the serializer.
-  Serialized types are in `Serialization_format.ml` and have
+  Serialized types are in `Serialization_format.TODO` and have
   `[@@deriving ... bin_io]` next to their type definitions.
 - The code rendering step (`FluidEditorView.toHtml`) is extremely performance
   sensitive, and it's important that we don't add any steps that checks the
